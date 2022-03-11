@@ -114,5 +114,9 @@ interface ErrorContainer { // { email: 'Not a valid email', username: 'Must star
 
 const errorBag: ErrorContainer = {
   email: 'Not a valid email!',
-  username: 'Must start with a capital character!'
+  username: 'Must start with a capital character!',
+  test: 'Somne data here'
 };
+
+console.log('errorBag' + JSON.stringify(errorBag, null, 2));
+
